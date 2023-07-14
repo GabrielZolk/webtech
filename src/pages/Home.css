@@ -49,3 +49,33 @@
     border: 2px solid white;
     cursor: pointer;
 }
+
+@media (max-width: 880px) {
+    .container .content h2 {
+        font-size: 2.5rem;
+    }
+
+    .container .content {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 580px) {
+    .container .content h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 410px) {
+    .container .content h2 {
+        font-size: 1.7rem;
+    }
+
+    .content nav ul {
+        display: block !important;
+    }
+
+    .content nav ul span {
+        color: black;
+    }
+}
